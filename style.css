@@ -1,0 +1,125 @@
+body{
+	background-color: #F6E6E4;
+	color: #737373 ;
+	font-family: 'Lora', serif;;
+	font-size: 15px;
+	text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #CA8A8B;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #DAA520;
+	font-size: 22px; 
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #1DA1F2; 
+	font-weight: 600;
+	font-size: 14px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #A5DDED;
+	text-decoration: none;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.card-white{
+	background-color: rgba(255,255,255,0.75);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	border: 0.01px solid #DAA520;
+	transition: transform 0.5s ease;	
+}
+
+.card-white:hover {
+	background-color: rgba(255,255,255,0.9);
+	transform: scale(1.05);
+}
+
+.btn-green{
+	background-color: #CA8A8B;
+	color: rgba(255,255,255,0.95);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover{
+	background-color: white;
+	color: #DAA520;
+	border: 1px solid #DAA520;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #CA8A8B;
+}
+
+.list-inline i:hover{
+	color: #DAA520;
+	transition: color 0.3s ease;
+}
+
+.img-circle{
+	border-radius: 25%;
+	width: 100px;
+}
+
+.img-shadow{
+	box-shadow: 0px 10px 10px rgb(0,0,0,0.15);
+}
+
+
+/*Design adjustment using Id*/
+
+#introduction p{
+	margin-bottom: 40px;
+}
